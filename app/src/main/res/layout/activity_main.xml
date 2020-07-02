@@ -16,17 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="107dp"
-        android:layout_height="98dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:srcCompat="@android:drawable/ic_btn_speak_now" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -36,7 +25,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/view"
-        app:layout_constraintStart_toEndOf="@+id/imageView" />
+        tools:layout_editor_absoluteX="171dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -56,12 +45,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#1A237E"
+            android:background="#FF5722"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
             android:text="Log Body Temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#FFFFFF" />
+            android:textColor="#80000000" />
 
         <View
             android:id="@+id/divider"
@@ -77,12 +66,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#311B92"
+            android:background="#CCFF5722"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
             android:text="Check Normal Range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#FFFFFF"
+            android:textColor="#80000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -97,12 +86,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#CC311B92"
+            android:background="#99FF5722"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
             android:text="Mechanism of Fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#FFFFFF" />
+            android:textColor="#80000000" />
 
         <View
             android:id="@+id/divider3"
@@ -115,13 +104,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#9B311B92"
+            android:background="#66FF5722"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
             android:text="Handling Fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#FFFFFF"
+            android:textColor="#80000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="117dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
