@@ -25,13 +25,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i1);
     }
 
-    public void openMechanismLink(View view) {
-        Intent i2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.scientificamerican.com/article/what-causes-a-fever/"));
-        startActivity(i2);
-    }
 
-    public void openHandleFeverLink(View view) {
-        Intent i3 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.healthline.com/health/how-to-break-a-fever"));
-        startActivity(i3);
-    }
+
+
 }
