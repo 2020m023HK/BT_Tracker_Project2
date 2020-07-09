@@ -23,7 +23,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginBottom="56dp"
-        android:text="BT Tracker"
+        android:text="@string/bt_tracker"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/view"
@@ -51,7 +51,7 @@
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
             android:onClick="goToLog"
-            android:text="Log Body Temperature"
+            android:text="@string/log_body_temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#80000000" />
 
@@ -94,7 +94,7 @@
             android:onClick="openMechanismLink"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
-            android:text="Mechanism of Fever"
+            android:text="@string/mechanism_of_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#80000000" />
 
@@ -113,7 +113,7 @@
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
             android:onClick="openHandleFeverLink"
-            android:text="Handling Fever"
+            android:text="@string/handling_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#80000000"
             app:layout_constraintEnd_toEndOf="parent"
