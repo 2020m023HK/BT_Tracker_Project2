@@ -25,7 +25,8 @@
         android:layout_marginBottom="56dp"
         android:text="@string/bt_tracker"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#FFFFFF"
+        android:textColor="#00BCD4"
+        android:textColorHighlight="#FFEB3B"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintStart_toEndOf="@+id/imageView2" />
 
@@ -59,7 +60,7 @@
             android:paddingBottom="10dp"
             android:text="@string/log_body_temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#80000000" />
+            android:textColor="#00BCD4" />
 
         <View
             android:id="@+id/divider"
@@ -87,7 +88,7 @@
             android:paddingBottom="10dp"
             android:text="Check Normal Range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#80000000"
+            android:textColor="#00BCD4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -114,7 +115,7 @@
             android:paddingBottom="10dp"
             android:text="@string/mechanism_of_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#80000000" />
+            android:textColor="#00BCD4" />
 
         <View
             android:id="@+id/divider3"
@@ -139,7 +140,7 @@
             android:paddingBottom="10dp"
             android:text="@string/handling_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#80000000"
+            android:textColor="#00BCD4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
     </LinearLayout>
